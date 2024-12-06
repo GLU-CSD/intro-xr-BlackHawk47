@@ -19,7 +19,7 @@ public class HealthUI : MonoBehaviour
             }
         }
     }
-
+    //als je de knop klikt gaat er health vanaf
     public void DamageButton()
     {
         if (healthScript != null)
@@ -27,7 +27,7 @@ public class HealthUI : MonoBehaviour
             healthScript.TakeDamage(10); // Vermindert health met 10
         }
     }
-
+    //als je de knop klikt komt er health bij
     public void HealButton()
     {
         if (healthScript != null)

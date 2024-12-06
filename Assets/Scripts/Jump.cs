@@ -9,6 +9,7 @@ public class Jump : MonoBehaviour
     private Animator animator;
     // Start is called before the first frame update
 
+    //zorgt er voor dat de animatie werkt
     void Update()
     {
         if (animator == null)
@@ -20,7 +21,7 @@ public class Jump : MonoBehaviour
             }
         }
     }
-
+    //laat de speel animatie afspelen
     public void JumpButton()
     {
         animator.Play("Jump");
